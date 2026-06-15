@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>张烈 Zhang Lie | Exhibition Design, Cultural Heritage &amp; Interactive Media</title>
+  <meta name="description" content="张烈，清华大学美术学院长聘教授、博士生导师，长期从事博物馆展陈、文化遗产数字化与交互媒体设计研究与实践。">
+  <meta property="og:title" content="张烈 Zhang Lie | Exhibition Design, Cultural Heritage &amp; Interactive Media">
+  <meta property="og:description" content="A bilingual archive of museum exhibition design, cultural heritage digitization and interactive media practice.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero/hero-01.jpg">
+  <link rel="icon" href="assets/images/logos/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation"></nav>
+    <div class="header-actions">
+      <div class="language-switch" aria-label="Language">
+        <button class="active" id="zhBtn" type="button">中</button>
+        <button id="enBtn" type="button">EN</button>
+      </div>
+      <button class="menu-button" id="menuButton" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </header>
+
+  <section class="hero" id="top" aria-label="Introduction">
+    <div class="hero-media" id="heroMedia" aria-hidden="true">
+      <video id="heroVideo" muted loop playsinline preload="none"></video>
+      <img id="heroImage" alt="">
+      <div class="hero-placeholder">
+        <span class="axis axis-a"></span><span class="axis axis-b"></span><span class="axis axis-c"></span>
+        <span class="hero-index">ARCHIVE / 001</span>
+      </div>
+    </div>
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <p class="eyebrow">ACADEMY OF ARTS &amp; DESIGN · TSINGHUA UNIVERSITY</p>
+      <h1 class="bi"><span class="zh">张烈</span><span class="en">Zhang Lie</span></h1>
+      <p class="hero-latin bi"><span class="zh">Zhang Lie</span><span class="en">张烈</span></p>
+      <aside class="hero-news" aria-label="Recent activities">
+        <div class="hero-news-head">
+          <span class="bi"><span class="zh">近期动态</span><span class="en">Recent</span></span>
+          <span>NEWS / APPEARANCES</span>
+        </div>
+        <div class="hero-news-list" id="heroNews"></div>
+      </aside>
+      <div class="hero-bottom">
+        <p class="hero-role bi"><span class="zh">清华大学美术学院长聘教授、博士生导师</span><span class="en">Tenured Professor and Doctoral Supervisor, Tsinghua University</span></p>
+        <p class="hero-focus bi"><span class="zh">博物馆展陈 · 文化遗产数字化 · 交互媒体</span><span class="en">Museum Exhibition · Cultural Heritage Digitization · Interactive Media</span></p>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#about"><span>SCROLL</span><i></i></a>
+  </section>
+
+  <main id="main"></main>
+
+  <div class="project-modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-panel">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close project preview">×</button>
+      <div id="modalContent"></div>
+    </article>
+  </div>
+
+  <button class="back-top" id="backTop" type="button" aria-label="Back to top">↑</button>
+
+  <script src="data/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
