@@ -163,24 +163,36 @@ const REPORTS = [{
   ozh:'中国文物交流中心、腾讯、新京报', oen:'China Cultural Relics Exchange Center, Tencent & The Beijing News'
 }];
 
-// 近期活动与采访可在此持续补充；链接未确认时保持为空。
+// 近期论文成果；链接未确认时保持为空。
 const RECENT_NEWS = [
   {
-    dateZh:'2025', dateEn:'2025', typeZh:'项目荣誉', typeEn:'Project Honor',
-    titleZh:'汉魏洛阳故城遗址博物馆获 APDC 展览类金奖',
-    titleEn:'Han–Wei Luoyang Museum receives APDC Exhibition Gold',
+    dateZh:'2026', dateEn:'2026', typeZh:'CCF-A', typeEn:'CCF-A',
+    titleZh:'沉浸式 VR 文化遗产中的可穿戴嗅觉-热反馈初探',
+    titleEn:'Wearable Olfactory-Thermal Feedback for Immersive VR Cultural Heritage',
     url:''
   },
   {
-    dateZh:'2024', dateEn:'2024', typeZh:'数字创新', typeEn:'Digital Innovation',
-    titleZh:'古陶瓷基因库与公共文化驿站入选文旅数字化创新案例',
-    titleEn:'Two projects selected as cultural-tourism digitization innovation cases',
+    dateZh:'2026', dateEn:'2026', typeZh:'EI', typeEn:'EI',
+    titleZh:'数字佛国：克孜尔第 38 窟 VR 沉浸体验可持续设计实践',
+    titleEn:'Digital Buddha Country: VR Immersive Experience in Cave 38 of Kizil',
     url:''
   },
   {
-    dateZh:'2023', dateEn:'2023', typeZh:'重要活动', typeEn:'Milestone',
-    titleZh:'景德镇御窑博物馆展陈持续服务文化遗产传播',
-    titleEn:'Imperial Kiln Museum exhibition advances heritage communication',
+    dateZh:'2026', dateEn:'2026', typeZh:'SSCI', typeEn:'SSCI',
+    titleZh:'大型遗址数字重建与阐释：洛阳应天门严重损毁案例',
+    titleEn:'Digital Reconstruction and Interpretation of Great Sites: Yingtianmen in Luoyang',
+    url:''
+  },
+  {
+    dateZh:'2025', dateEn:'2025', typeZh:'期刊', typeEn:'Journal',
+    titleZh:'克孜尔石窟壁画中的虚拟现实与教育：面向遗产可持续性的多感官交互',
+    titleEn:'Virtual Reality and Education in Kizil Cave Murals',
+    url:''
+  },
+  {
+    dateZh:'2025', dateEn:'2025', typeZh:'EI', typeEn:'EI',
+    titleZh:'克孜尔合奏：复兴第 38 窟失落乐队的音频交互系统设计',
+    titleEn:'The Kizil Ensemble: Reviving the Lost Orchestra of Cave 38',
     url:''
   }
 ];
