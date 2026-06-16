@@ -237,6 +237,7 @@ html[lang="en"] .work-title { font-family: "Newsreader", serif; font-weight: 400
 .service-item { break-inside: avoid; padding: 13px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
 
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: end; }
+.contact-intro .section-label { margin-bottom: 18px; }
 .contact-title { margin: 0; font: 400 clamp(50px, 8vw, 120px)/.95 "Newsreader", "Noto Serif SC", serif; }
 .contact-copy { margin: 26px 0 0; max-width: 45ch; color: rgba(255,255,255,.65); }
 .contact-details { border-top: 1px solid rgba(255,255,255,.25); }

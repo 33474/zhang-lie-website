@@ -193,7 +193,7 @@ function buildPage() {
 
     <section class="section dark" id="contact">
       <div class="wrap contact-grid">
-        <div class="reveal">
+        <div class="contact-intro reveal">
           <div class="section-label">06 / CONTACT</div>
           <h2 class="contact-title">${bi("联系", "Contact")}</h2>
           <p class="contact-copy">${bi("欢迎就博物馆展陈、文化遗产数字化、空间叙事与交互媒体研究开展合作交流。", "Open to collaboration on museum exhibition, cultural heritage digitization, spatial narrative and interactive-media research.")}</p>
