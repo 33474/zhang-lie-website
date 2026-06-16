@@ -202,7 +202,7 @@ function buildPage() {
           <div class="contact-row"><dt>Affiliation</dt><dd>${bi("清华大学美术学院", "Academy of Arts & Design, Tsinghua University")}</dd></div>
           <div class="contact-row"><dt>Institute</dt><dd>${bi("遗产传播与数智创新研究所", "Institute for Heritage Communication & Digital-Intelligent Innovation")}</dd></div>
           <div class="contact-row"><dt>Address</dt><dd>${bi("北京市海淀区清华园", "Tsinghua Campus, Haidian, Beijing")}</dd></div>
-          <div class="contact-row"><dt>Email</dt><dd>${bi("确认后更新", "Contact information will be updated after confirmation")}</dd></div>
+          <div class="contact-row"><dt>Email</dt><dd>${bi("zhlie@mail.tsinghua.edu.cn", "zhlie@mail.tsinghua.edu.cn")}</dd></div>
         </dl>
       </div>
     </section>
