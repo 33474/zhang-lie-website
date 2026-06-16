@@ -234,7 +234,10 @@ function setLanguage(language) {
   document.title = language === "zh"
     ? "张烈 Zhang Lie | 展陈设计、文化遗产与交互媒体"
     : "Zhang Lie | Exhibition Design, Cultural Heritage & Interactive Media";
-  localStorage.setItem("zhang-lie-language", language);
+}
+
+function toggleLanguage() {
+  setLanguage(document.documentElement.lang === "zh" ? "en" : "zh");
 }
 
 let activeCategory = "All";
@@ -311,7 +314,12 @@ function wireInteractions() {
     if (event.target.closest("[data-close-modal]")) closeProject();
   });
   document.addEventListener("keydown", (event) => {
-    if ((event.key === "Enter" || event.key === " ") && event.target.matches("[data-project]")) openProject(event.target.dataset.project);
+    const isProjectTrigger = event.target.matches("[data-project]");
+    if ((event.key === "Enter" || event.key === " ") && isProjectTrigger) openProject(event.target.dataset.project);
+    if (event.key === " " && !isProjectTrigger && !event.target.closest("button, a, input, textarea, select, [contenteditable='true']")) {
+      event.preventDefault();
+      toggleLanguage();
+    }
     if (event.key === "Escape") closeProject();
   });
 
@@ -361,4 +369,4 @@ loadHeroMedia();
 wireFilters();
 wireInteractions();
 wireScroll();
-setLanguage(localStorage.getItem("zhang-lie-language") || "zh");
+setLanguage("en");
